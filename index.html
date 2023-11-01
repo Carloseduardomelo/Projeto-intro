@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="stylesheet" href="./src/styles/media.css">
+    <title>projeto intro login</title>
+</head>
+
+<body>
+    <main class="cont-pric">
+        <section id="cont-descricao">
+            <h1>
+                Learn to code by watching others
+            </h1>
+            <p>
+                See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+                but understanding how developers think is invaluable.
+            </p>
+        </section>
+        <section id="input-peco">
+            <article id="cont-preco">
+                <p>
+                    <span id="try">Try it free 7 days</span> then $20/mo. thereafter
+                </p>
+            </article>
+            <article id="cont-input">
+                <div class="inputs-div">
+                    <span class="inputs">
+                        <input type="text" name="frist Name"  placeholder="Firs Name" class="input-form">
+                        <img src="./src/assets/images/icon-error.svg" alt="" class="error">
+                    </span>
+                    <p class="paragrafo-erro"></p>
+                </div>
+                <div class="inputs-div">
+                    <span class="inputs">
+                        <input type="text" name="Last Name"  placeholder="Last Name" class="input-form">
+                        <img src="./src/assets/images/icon-error.svg" alt="" class="error">
+                    </span>
+                    <p class="paragrafo-erro"></p>
+                </div>
+                <div class="inputs-div">
+
+                    <span class="inputs">
+                        <input type="email" name="Email"  placeholder="Email Address" class="input-form">
+                        <img src="./src/assets/images/icon-error.svg" alt="" class="error">
+                    </span>
+                    <p class="paragrafo-erro"></p>
+                </div>
+                <div class="inputs-div">
+                    <span class="inputs">
+                        <input type="password" name="Password" placeholder="Password" maxlength="10" minlength="6" class="input-form">
+                        <img src="./src/assets/images/icon-error.svg" alt="" class="error">
+                    </span>
+                    <p class="paragrafo-erro"></p>
+                </div>
+
+                <button type="button" id="button">Claim your free trial </button>
+
+                <p id="termos-p">By clicking the button, you are agreeing to our <span id="terms">Terms and Services</span></p>
+            </article>
+        </section>
+    </main>
+
+    <script src="./src/scripts/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+@media (max-width: 575px) and (min-width: 375px){
+    main{
+        width: 75%;
+    }
+}
+@media (max-width: 675px) and (min-width: 575px){
+    main{
+        width: 65%;
+    }
+}
+@media (max-width: 775px) and (min-width: 675px){
+    main{
+        width: 55%;
+    }
+}
+@media (max-width: 875px) and (min-width: 775px){
+    main{
+        width: 45%;
+    }
+}
+@media (max-width: 975px) and (min-width: 875px){
+    main{
+        width: 40%;
+    }
+}
+@media (max-width: 1075px) and (min-width: 975px){
+    main{
+        width: 40%;
+    }
+}
+
+@media (max-width: 1375px) and (min-width: 1075px){
+
+    body{
+        background: url('../assets/images/bg-intro-desktop.png') center centre;
+        align-items: center;
+        justify-content: center;
+    }
+    main{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 90px;
+        padding: 0px 20px 0px 20px;
+
+    }
+    #cont-descricao{
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+
+    }
+    #cont-descricao h1{
+        width: 70%;
+        font-size: 38px;
+    }
+    
+    #cont-descricao p{
+        width: 52%;
+        font-size: 15px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.747);
+        text-align: left;
+
+    }
+
+    #cont-input{
+        width: 100%;
+    }
+
+    #input-peco{
+        width: 50%;
+        align-items: start;
+
+        margin-right: 50px;
+    }
+
+    .inputs{
+        height: 60px;
+    }
+    #button{
+        height: 70px;
+    }
+    
+}
+
+@media (max-width: 1575px) and (min-width: 1375px){
+    body{
+        background: url('../assets/images/bg-intro-desktop.png') center centre;
+        align-items: center;
+        justify-content: center;
+    }
+    main{
+        width: 90%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 90px;
+
+        padding: 0px 20px 0px 20px;
+    }
+    #cont-descricao{
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+
+    }
+    #cont-descricao h1{
+        width: 100%;
+        font-size: 70px;
+
+        text-align: left;
+    }
+    
+    #cont-descricao p{
+        width: 100%;
+
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        text-align: left;
+        font-size: 20px;
+
+    }
+
+    #cont-input{
+        width: 100%;
+    }
+
+    #input-peco{
+        width: 50%;
+        align-items: start;
+
+        margin-right: 50px;
+    }
+
+    .inputs{
+        height: 60px;
+    }
+    #button{
+        height: 70px;
+    }
+    
+}
+@media (max-width:3075px) and (min-width: 1575px){
+    body{
+        background: url('../assets/images/bg-intro-desktop.png') center centre;
+        align-items: center;
+        justify-content: center;
+    }
+    main{
+        width: 90%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+        padding: 0px 20px 0px 20px;
+
+        gap: 90px;
+    }
+    #cont-descricao{
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+
+    }
+    #cont-descricao h1{
+        width: 100%;
+        font-size: 70px;
+
+        text-align: left;
+    }
+    
+    #cont-descricao p{
+        width: 100%;
+
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        text-align: left;
+        font-size: 20px;
+
+    }
+
+    #cont-input{
+        width: 100%;
+    }
+
+    #input-peco{
+        width: 50%;
+        align-items: start;
+
+        margin-right: 50px;
+    }
+
+    .inputs{
+        height: 60px;
+    }
+    #button{
+        height: 70px;
+    }
+    
+}
+
